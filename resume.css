@@ -13,11 +13,13 @@
  }
 
  .container {
-   width: 850px;
+   width: 100%;
+   max-width: 850px;
    background: #fff;
    border-radius: 10px;
    overflow: hidden;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   margin: 20px;
  }
 
  header {
@@ -74,4 +76,27 @@
    border-radius: 5px;
    margin: 4px 5px;
    font-size: 14px;
+ }
+
+ @media(max-width:600px){
+  body{
+    padding: 10px;
+
+  }
+  header h1{
+    font-size: 28px;
+  }
+  .sub-title{
+    font-size: 16px;
+  }
+  .section{
+    padding: 15px 20px;
+  }
+  h2{
+    font-size: 18px;
+  }
+
+  p.li.a{
+    font-size: 14px;
+  }
  }
